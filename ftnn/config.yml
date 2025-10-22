@@ -1,5 +1,6 @@
-- DOMAIN-SUFFIX,futunn.com,香港
-- DOMAIN-SUFFIX,futu5.com,香港
-- DOMAIN-SUFFIX,futuservice.com,香港
-- DOMAIN-SUFFIX,futuhk.com,香港
-- DOMAIN-SUFFIX,moomoo.com,香港
+- DOMAIN-SUFFIX,futunn.com,proxy
+- DOMAIN-SUFFIX,futu5.com,proxy
+- DOMAIN-SUFFIX,futuservice.com,proxy
+- DOMAIN-SUFFIX,futuhk.com,proxy
+- DOMAIN-SUFFIX,moomoo.com,proxy
+
