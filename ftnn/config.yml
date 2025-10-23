@@ -1,6 +1,9 @@
-- DOMAIN-SUFFIX,futunn.com,proxy
-- DOMAIN-SUFFIX,futu5.com,proxy
-- DOMAIN-SUFFIX,futuservice.com,proxy
-- DOMAIN-SUFFIX,futuhk.com,proxy
-- DOMAIN-SUFFIX,moomoo.com,proxy
-
+# - DOMAIN-SUFFIX,futunn.com,proxy
+# - DOMAIN-SUFFIX,futu5.com,proxy
+# - DOMAIN-SUFFIX,futuservice.com,proxy
+# - DOMAIN-SUFFIX,futuhk.com,proxy
+# - DOMAIN-SUFFIX,moomoo.com,proxy
+proxy-groups:
+- { name: Ftnn, type: select, proxies: [Proxy, DIRECT, '🇭🇰 香港 OCTO [Beijing]', '🇭🇰 香港 OCTO [Hangzhou]', '🇭🇰 香港 OCTO [Shenzhen]', '🇭🇰 香港 IEPL [01] [Air]', '🇭🇰 香港 IEPL [02] [Air]', '🇭🇰 香港 IEPL [03] [Std]', '🇭🇰 香港 IEPL [04] [Std]', '🇨🇳 台湾 IEPL [01] [Air]', '🇨🇳 台湾 IEPL [02] [Air]', '🇨🇳 台湾 IEPL [03] [Std]', '🇸🇬 新加坡 IEPL [01] [Air]', '🇸🇬 新加坡 IEPL [02] [Air]', '🇸🇬 新加坡 IEPL [03] [Std]', '🇯🇵 日本 IEPL [01] [Air]', '🇯🇵 日本 IEPL [02] [Air]', '🇰🇷 韩国 IEPL [01] [Air]', '🇰🇷 韩国 IEPL [02] [Air]', '🇺🇸 美国 IEPL [01] [Air]', '🇺🇸 美国 IEPL [02] [Air]', '🇷🇺 俄罗斯 IEPL [01] [Air]', '🇷🇺 俄罗斯 IEPL [02] [Air]', '🇨🇦 加拿大 IEPL [01] [Air]', '🇨🇦 加拿大 IEPL [02] [Air]', '🇮🇳 印度 IEPL [01] [Air]', '🇮🇳 印度 IEPL [02] [Air]', '🇹🇷 土耳其 IEPL [01] [Air]', '🇹🇷 土耳其 IEPL [02] [Air]', '🇲🇽 墨西哥 IEPL [01] [Air]', '🇲🇽 墨西哥 IEPL [02] [Air]', '🇳🇬 尼日利亚 IEPL [01] [Air]', '🇳🇬 尼日利亚 IEPL [02] [Air]', '🇧🇷 巴西 IEPL [01] [Air]', '🇧🇷 巴西 IEPL [02] [Air]', '🇩🇪 德国 IEPL [01] [Air]', '🇩🇪 德国 IEPL [02] [Air]', '🇫🇷 法国 IEPL [01] [Air]', '🇫🇷 法国 IEPL [02] [Air]', '🇹🇭 泰国 IEPL [01] [Air]', '🇹🇭 泰国 IEPL [02] [Air]', '🇦🇺 澳大利亚 IEPL [01] [Air]', '🇦🇺 澳大利亚 IEPL [02] [Air]', '🇬🇧 英国 IEPL [01] [Air]', '🇬🇧 英国 IEPL [02] [Air]', '🇵🇭 菲律宾 IEPL [01] [Air]', '🇵🇭 菲律宾 IEPL [02] [Air]', '🇲🇾 马来西亚 IEPL [01] [Air]', '🇲🇾 马来西亚 IEPL [02] [Air]'] }
+rules:
+  - 'RULE-SET,Ftnn,Ftnn'
