@@ -1,0 +1,20 @@
+# 富途牛牛 Ftnn 核心域名和相关服务
+# 适用于香港、美国等地的交易和行情
+DOMAIN-SUFFIX,futunn.com,Ftnn
+DOMAIN-SUFFIX,futuhk.com,Ftnn
+DOMAIN-SUFFIX,fututrade.com,Ftnn
+DOMAIN-SUFFIX,futubull.com,Ftnn
+DOMAIN-SUFFIX,futu-cn.com,Ftnn
+DOMAIN-SUFFIX,futu-sg.com,Ftnn
+DOMAIN-SUFFIX,futucdn.com,Ftnn
+DOMAIN-SUFFIX,futu5.com,Ftnn
+DOMAIN-SUFFIX,futu8.com,Ftnn
+DOMAIN-SUFFIX,futues.com,Ftnn
+
+# IP 规则（如果需要更精准的控制，可以添加）
+# 注意：IP 规则可能随时间变化，域名规则通常更稳定。
+# 示例：
+# IP-CIDR,203.195.163.0/24,Ftnn,no-resolve # 香港/国际服务器
+# IP-CIDR,58.216.0.0/16,Ftnn,no-resolve # 潜在的富途服务IP段，需抓包确认
+
+# 确保富途服务的所有请求走 Ftnn 策略组
